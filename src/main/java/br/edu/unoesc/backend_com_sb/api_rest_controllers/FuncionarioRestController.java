@@ -19,8 +19,8 @@ import br.edu.unoesc.backend_com_sb.model.Funcionario;
 @RequestMapping(value = "/api")
 public class FuncionarioRestController {
 	//SimpleDateFormat df = new SimpleDateFormat("dd/MM/YYYY");
-	Funcionario f1 = new Funcionario(1L, "Lucas Paz", 3, new BigDecimal("1550.99"));
-	Funcionario f2 = new Funcionario(2L, "Lucas Guerra", 2, new BigDecimal("2333.60"));
+	Funcionario f1 = new Funcionario(1L, "John Code", 3, new BigDecimal("1550.99"));
+	Funcionario f2 = new Funcionario(2L, "walter Bugs", 2, new BigDecimal("2333.60"));
 	List<Funcionario> funcionarios; // aqui só declaramos que existe a lista.
 	
 	public FuncionarioRestController() {
